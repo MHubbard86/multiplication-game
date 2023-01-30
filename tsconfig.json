@@ -1,0 +1,37 @@
+{
+    "compilerOptions": {
+      "target": "ES2022",
+      "lib": [
+        "dom",
+        "dom.iterable",
+        "ES2022"
+      ],
+      "allowJs": true,
+      "skipLibCheck": true,
+      "esModuleInterop": true,
+      "allowSyntheticDefaultImports": true,
+      "strict": true,
+      "forceConsistentCasingInFileNames": true,
+      "noFallthroughCasesInSwitch": true,
+      "module": "es2022",
+      "moduleResolution": "node",
+      "resolveJsonModule": true,
+      "isolatedModules": true,
+      "noEmit": false,
+      "jsx": "react-jsx",
+      "sourceMap": true,
+      "typeRoots": [
+        "src/@types"
+      ],
+      "types": ["node"]
+    },
+    "include": [
+      "src"
+    ],
+    "exclude": [
+      "node_modules",
+    ],
+    "setupFilesAfterEnv": [
+      "<rootDir>/test/setupTests.js"
+    ]
+   }
